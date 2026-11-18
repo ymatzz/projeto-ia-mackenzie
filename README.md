@@ -172,24 +172,6 @@ O notebook não precisa de câmera, GPU, MediaPipe nem MATLAB para executar o ex
 4. Desenvolver e testar um pipeline separado de extração de pose com MediaPipe, estabelecendo compatibilidade entre características de treino e inferência.
 5. Somente após validação específica, investigar feedback de execução e medidas de fadiga.
 
-## Entregáveis e verificação da N2
-
-O enunciado da disciplina solicita relatório final, dataset com descrição, código-fonte Python documentado e organizado em **repositório público**, além de **vídeo público no YouTube de até cinco minutos**, com demonstração da solução e apresentação do GitHub.
-
-| Item exigido | Situação nos arquivos preparados |
-|---|---|
-| Relatório acadêmico atualizado (título, integrantes, problema, ética, dataset, metodologia, resultados, conclusão, referências) | Preparado em `PROJETO-IA_corrigido.docx` |
-| Dataset e documentação de origem | Seis CSVs e scripts originais em `dataset/`; a exigência de **dados autorais permanece pendente** |
-| Notebook Python completo | `analise_exploratoria_corrigida.ipynb` |
-| Documentação interna, identificações e histórico de alterações | Incluídos no cabeçalho do notebook; revisar antes da publicação definitiva |
-| Gráficos e métricas da solução | `resultados/` |
-| Dependências e instruções de reprodução | `requirements.txt` e este README |
-| Repositório público com todos os artefatos | **Conferir após o envio efetivo dos arquivos ao GitHub** |
-| Vídeo público (≤ 5 minutos) e URL no relatório | **Pendente de confirmação; link não fornecido** |
-| Apresentação e integração da equipe | Verificadas pelo professor na apresentação, não pelo README |
-
-**Antes da entrega, confirmar:** todos os arquivos acima realmente estão publicados e acessíveis no GitHub, o vídeo está público, os links reais constam no relatório e o material foi encaminhado pelo Ambiente Virtual conforme solicitado. Este README não comprova essas etapas por si só.
-
 ## Referências principais
 
 1. VAKANSKI, A. et al. **A data-driven framework for assessing physical rehabilitation exercises**. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, v. 28, n. 4, p. 888–898, 2020. DOI: [10.1109/TNSRE.2020.2977273](https://doi.org/10.1109/TNSRE.2020.2977273).
