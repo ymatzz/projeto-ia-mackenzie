@@ -1,0 +1,42 @@
+{
+  "dataset": "UI-PRMD / Deep Squat (benchmark público)",
+  "n_total": 180,
+  "n_treino": 146,
+  "n_teste": 34,
+  "participantes_treino": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "participantes_teste": [
+    2,
+    9
+  ],
+  "n_caracteristicas_originais": 960,
+  "n_descritores": 24,
+  "algoritmo": "StandardScaler + Ridge",
+  "criterio_selecao": "GroupKFold (4 folds) no treino; MSE",
+  "melhor_alpha": 0.1,
+  "cv_mse_medio_melhor_alpha": 0.000908340164155366,
+  "resultado_baseline_teste": {
+    "mae": 0.07298056809024979,
+    "mse": 0.011154300750177726,
+    "r2": -0.12248727180356966
+  },
+  "resultado_ridge_teste": {
+    "mae": 0.03238279005096018,
+    "mse": 0.0022470583729403844,
+    "r2": 0.7738724749209374
+  },
+  "restricoes": [
+    "Labels GMM computados a partir do conjunto público completo (dependência global entre os rótulos)",
+    "Poucos participantes; divisão única de teste não valida uso clínico",
+    "Dados originais do grupo e processamento MediaPipe ausentes",
+    "Escore GMM não mede diretamente fadiga, risco de lesão ou correção biomecânica"
+  ]
+}
